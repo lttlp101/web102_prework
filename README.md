@@ -24,8 +24,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
 <!-- Mp4 video attachment for demo -->
+https://github.com/user-attachments/assets/82a5f10c-196e-49f8-9f74-cc0861131d00
 
 <!--
   imgur link:
