@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+body {
+	font-family: "Cabin";
+	background-color: #758190;
+}
+
+.header {
+	display: flex;
+	background-color: lightblue;
+	padding: 1%;
+	align-items: center;
+	justify-content: center;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+}
+
+#tentacles {
+	width: 100px;
+	margin-right: 20px;
+}
+
+.header-text {
+	font-size: 3.5rem; /* Makes the font larger */
+	font-weight: bold; /* Makes the font bold */
+	color: #333; /* Sets the text color */
+	margin: 0; /* Removes default margins */
+}
+
+.navbar {
+	background-color: lightblue;
+	padding: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar ul li {
+	margin: 0 10px;
+}
+
+.navbar ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+.stats-container {
+	display: flex;
+	align-items: center;
+}
+
+.stats-container:hover {
+	cursor: pointer;
+	box-shadow: 0 0 30px lightblue;
+}
+
+.stats-card {
+	background-color: #a8b0bc;
+	border-radius: 7px;
+	padding: 1%;
+	margin: 1%;
+	width: 100%;
+	text-align: center;
+}
+
+#num-contributions,
+#total-raised,
+#num-games {
+	font-size: 50px;
+}
+
+#games-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.game-img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ffffff;
+}
+
+.game-card {
+	background-color: #ffffff;
+	padding: 1%;
+	margin: 1%;
+	width: 300px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.game-card:hover {
+	cursor: pointer;
+	box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+	text-align: center;
+}
+
+button {
+	font-family: "Cabin";
+	border: none;
+	padding: 1%;
+	margin: 1%;
+	border-radius: 7px;
+}
