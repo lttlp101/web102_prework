@@ -22,10 +22,10 @@ body {
 }
 
 .header-text {
-	font-size: 3.5rem; /* Makes the font larger */
-	font-weight: bold; /* Makes the font bold */
-	color: #333; /* Sets the text color */
-	margin: 0; /* Removes default margins */
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
 }
 
 .navbar {
